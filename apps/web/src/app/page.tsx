@@ -2,8 +2,7 @@
 
 import { useState } from 'react';
 import { GameList } from './components/GameList';
-import type { Game } from '@livescore/shared';
-import type { GameStatus } from '@livescore/shared';
+import type { Game, GameStatus } from '@livescore/shared/src/types';
 
 // Sample data for demonstration
 const initialGames: Game[] = [
